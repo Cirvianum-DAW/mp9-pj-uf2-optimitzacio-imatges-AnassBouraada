@@ -1,11 +1,9 @@
-
-
 /*
 CSS de el sidebar
 */
 
 .Sidebar {
-  background: darksalmon;
+  background: #063146;
 }
 .Sidebar header {
   font-size: 22px;
@@ -23,7 +21,7 @@ CSS de el sidebar
   line-height: 65px;
   font-size: 20px;
   color: white;
-  padding-left: 40px;
+  padding-left: 0px;
   border-bottom: 1px solid black;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   transition: all 400ms ease;
@@ -34,5 +32,5 @@ ul li:hover a {
 }
 
 .Sidebar ul a i {
-  margin-right: 16px;
+  margin-right: 10px;
 }

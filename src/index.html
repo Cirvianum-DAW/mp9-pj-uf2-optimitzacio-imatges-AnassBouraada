@@ -29,7 +29,7 @@
                 </div>
                 <div class="flex items-center">
                     <div>
-                        <img src="../Imatges/Logo.png" class="w-30 h-20"
+                        <img src="../Imatges/Logo_final.svg" class="w-30 h-20"
                             alt="Logo Gold Gym" />
                     </div>
                 </div>
@@ -70,8 +70,12 @@
                 </ul>
             </nav>
             <div class="flex-grow overflow-hidden">
-                <img src="../Imatges/1.jpg"
-                    class="w-full h-full object-cover" />
+                    <picture>
+                        <source media="(max-width: 599px)" srcset="../Imatges/pics_principal.webp" />
+                        <source media="(min-width: 600px)" srcset="../Imatges/kerlinPeruano.jpg" />
+                        <img src="../Imatges/pics_principal.webp" alt="" />
+                      </picture>
+                  
             </div>
         </div>
 
@@ -83,7 +87,7 @@
             </div>
 
             <div class="flex items-center">
-                <img src="../Imatges/Novetats1.jpg" alt="Imatge novetats"
+                <img src="../Imatges/Novetats1.webp" alt="Imatge novetats"
                     class="w-full h-36 object-cover md:w-auto md:h-32" />
                 <div class="ml-4">
                     <p>Master Class de Nadal</p>
@@ -91,7 +95,7 @@
             </div>
 
             <div class="flex items-center mt-4 md:mt-0">
-                <img src="../Imatges/Novetats2.jpg" alt="Imatge novetats"
+                <img src="../Imatges/Novetats2.webp" alt="Imatge novetats"
                     class="w-full h-32 object-cover md:w-auto md:h-28" />
                 <div class="ml-4">
                     <p>Últimes places de natació per infants</p>

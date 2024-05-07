@@ -39,43 +39,39 @@
         <!-- Contingut principal -->
         <div class="flex flex-col md:flex-row w-full">
             <!-- Menú lateral (Sidebar) -->
-            <nav class="Sidebar bg-black-900 text-white w-full md:w-60 p-4">
+            <nav class="Sidebar bg-black-900 text-white w-full md:w-60 p-4 md:max-w-60">
                 <header class="text-2xl text-center bg-blue-800">
                     GOLD GYM A.B
                 </header>
                 <ul class="mt-4">
                     <li>
-                        <a href="quiSom.html" 
-                            class="flex items-center">
+                        <a href="quiSom.html" class="flex items-center">
                             <i class="fas fa-qrcode mr-2"></i>Qui Som
                         </a>
                     </li>
                     <li>
-                        <a href="activitats.html" 
-                            class="flex items-center">
+                        <a href="activitats.html" class="flex items-center">
                             <i class="far fa-envelope mr-2"></i>Activitats
                         </a>
                     </li>
                     <li>
-                        <a href="fonts.html" 
-                            class="flex items-center">
+                        <a href="fonts.html" class="flex items-center">
                             <i class="fas fa-stream mr-2"></i>Fonts
                         </a>
                     </li>
                     <li>
-                        <a href="comparacio.html" 
-                            class="flex items-center">
+                        <a href="comparacio.html" class="flex items-center">
                             <i class="fas fa-arrows-alt-h"></i>Comparacio
                         </a>
+                    </li>
                 </ul>
             </nav>
             <div class="flex-grow overflow-hidden">
-                    <picture>
-                        <source media="(max-width: 599px)" srcset="../Imatges/pics_principal.webp" />
-                        <source media="(min-width: 600px)" srcset="../Imatges/kerlinPeruano.jpg" />
-                        <img src="../Imatges/pics_principal.webp" alt="" />
-                      </picture>
-                  
+                <picture>
+                    <source media="(max-width: 599px)" srcset="../Imatges/pics_principal.webp" />
+                    <source media="(min-width: 600px)" srcset="../Imatges/imatge_principal.jpg" class="w-full h-auto" />
+                    <img src="../Imatges/pics_principal.webp" alt="" class="w-full h-full" />
+                </picture>
             </div>
         </div>
 
@@ -96,7 +92,7 @@
 
             <div class="flex items-center mt-4 md:mt-0">
                 <img src="../Imatges/Novetats2.webp" alt="Imatge novetats"
-                    class="w-full h-32 object-cover md:w-auto md:h-28" />
+                    class="w-full h-32 md:w-auto md:h-28" />
                 <div class="ml-4">
                     <p>Últimes places de natació per infants</p>
                 </div>

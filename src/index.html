@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="../CSS/estils-index.css" />
 
     <body class="font-sans flex flex-col min-h-screen">
+
         <!-- Encapçalat (Header) -->
         <header class="bg-gray-600 p-4">
             <div class="flex flex-col md:flex-row items-center justify-between">
@@ -39,44 +40,40 @@
         <!-- Contingut principal -->
         <div class="flex flex-col md:flex-row w-full">
             <!-- Menú lateral (Sidebar) -->
-            <nav class="Sidebar bg-black-900 text-white w-full md:w-60 p-4">
+            <nav class="Sidebar bg-black-900 text-white md:w-60 p-4">
                 <header class="text-2xl text-center bg-blue-800">
                     GOLD GYM A.B
                 </header>
                 <ul class="mt-4">
                     <li>
-                        <a href="quiSom.html" 
-                            class="flex items-center">
+                        <a href="quiSom.html" class="flex items-center">
                             <i class="fas fa-qrcode mr-2"></i>Qui Som
                         </a>
                     </li>
                     <li>
-                        <a href="activitats.html" 
-                            class="flex items-center">
+                        <a href="activitats.html" class="flex items-center">
                             <i class="far fa-envelope mr-2"></i>Activitats
                         </a>
                     </li>
                     <li>
-                        <a href="fonts.html" 
-                            class="flex items-center">
+                        <a href="fonts.html" class="flex items-center">
                             <i class="fas fa-stream mr-2"></i>Fonts
                         </a>
                     </li>
                     <li>
-                        <a href="comparacio.html" 
-                            class="flex items-center">
+                        <a href="comparacio.html" class="flex items-center">
                             <i class="fas fa-arrows-alt-h"></i>Comparacio
                         </a>
+                    </li>
                 </ul>
             </nav>
-            <div class="flex-grow overflow-hidden">
-                    <picture>
-                        <source media="(max-width: 599px)" srcset="../Imatges/pics_principal.webp" />
-                        <source media="(min-width: 600px)" srcset="../Imatges/kerlinPeruano.jpg" />
-                        <img src="../Imatges/pics_principal.webp" alt="" />
-                      </picture>
-                  
-            </div>
+                        <div class="flex-grow overflow-hidden">
+                <picture>
+                    <source media="(max-width: 599px)" srcset="../Imatges/pics_principal.webp" />
+                    <source media="(min-width: 600px)" srcset="../Imatges/kerlinPeruano.jpg" />
+                    <img src="../Imatges/pics_principal.webp" alt="" class="w-full h-full object-cover" />
+                </picture>
+            </div>            
         </div>
 
         <!-- Novetats -->
